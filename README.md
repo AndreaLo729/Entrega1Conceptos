@@ -2,11 +2,11 @@
 
 **Asignatura:** Conceptos Fundamentales de Programación  
 **Versión:** 2.0 (Entrega 2)  
-**Autor:** Andrea Lozano Beltrán y Grupo de Trabajo  
+**Autor:** Andrea Lozano Beltrán, Jorge Ivan Torres y Miguel Montañez Ruiz Grupo de Trabajo 05
 
 ---
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto consiste en un sistema de procesamiento batch desarrollado en Java puro (sin dependencias externas) que automatiza la lectura, consolidación y reporte de datos de ventas de una compañía. 
 
@@ -16,7 +16,7 @@ El sistema consta de dos módulos principales:
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Entrega2/
@@ -28,7 +28,7 @@ Entrega2/
 
 ---
 
-## 🔄 Arquitectura y Flujo de Procesamiento
+## Arquitectura y Flujo de Procesamiento
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -62,7 +62,7 @@ Entrega2/
 
 ---
 
-## ⚙️ Explicación Técnica de los Componentes
+## Explicación Técnica de los Componentes
 
 ### 1. `GenerateInfoFiles.java`
 Esta clase es responsable de simular información de ventas para testing. Contiene los siguientes métodos principales:
@@ -78,7 +78,7 @@ Es el núcleo de la aplicación. Ejecuta la lógica en 3 fases secuenciales:
 
 ---
 
-## 📄 Especificación de Formatos de Archivo
+## Especificación de Formatos de Archivo
 
 Todos los archivos emplean el carácter punto y coma (`;`) como delimitador.
 
@@ -134,7 +134,7 @@ Mouse 2;45000.00;8
 
 ---
 
-## 🚀 Guía de Compilación y Ejecución Paso a Paso
+## Guía de Compilación y Ejecución Paso a Paso
 
 ### Prerrequisitos
 - Tener instalado el JDK de Java (versión 8 o superior).
@@ -197,7 +197,7 @@ Se crearán en la carpeta los archivos de salida:
 
 ---
 
-## ✅ Verificación de Resultados
+## Verificación de Resultados
 
 Puedes inspeccionar los reportes generados utilizando el comando `cat` (Linux/Mac) o `type` (Windows):
 
@@ -208,7 +208,7 @@ cat reporte_productos_cantidad.csv
 
 ---
 
-## 👥 Créditos
-- **Autores:** Andrea Lozano Beltrán y Grupo de Trabajo
+## Créditos
+- **Autores:** Andrea Lozano Beltrán Jorge Ivan Torres y Miguel Montañez Ruiz, Grupo de Trabajo 05
 - **Institución:** Politécnico Grancolombiano / Institución Universitaria
 - **Asignatura:** Conceptos Fundamentales de Programación
