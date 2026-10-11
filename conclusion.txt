@@ -1,0 +1,46 @@
+======================================================================
+PROYECTO FINAL: SISTEMA DE PROCESAMIENTO DE VENTAS Y REPORTES EN JAVA
+Módulo: Conceptos Fundamentales del Computador / Programación
+Integrantes: Andrea Lozano Beltrán, Jorge Ivan Torres y Miguel Montañez Ruiz - Grupo de Trabajo 05
+======================================================================
+
+1. LO APRENDIDO DURANTE EL DESARROLLO DEL PROYECTO
+----------------------------------------------------------------------
+Durante la ejecución de este proyecto se afianzaron conceptos clave
+de la programación orientada a objetos y procesamiento batch en Java:
+- Manejo dinámico de archivos planos (.txt y .csv) mediante BufferedReader
+  y BufferedWriter para lectura y escritura eficiente de datos.
+- Uso e implementación de estructuras de datos como java.util.Map (HashMap)
+  para el almacenamiento temporal en memoria y cruce de información entre
+  vendedores, productos y ventas.
+- Implementación de algoritmos de ordenamiento mediante List y Comparator
+  para organizar reportes de recaudación y volúmenes de venta.
+- Modularización del código en clases específicas con responsabilidades
+  definidas (GenerateInfoFiles para simulación y Main para procesamiento).
+- Control de flujo y manejo defensivo de excepciones (IOException,
+  NumberFormatException) para prevenir caídas inesperadas del sistema.
+
+2. POSIBLES APLICACIONES EN LA VIDA PROFESIONAL
+----------------------------------------------------------------------
+Las destrezas y conocimientos ejercitados en este proyecto son de directa
+aplicación en el entorno profesional del software engineering:
+- Desarrollo de procesos ETL (Extract, Transform, Load) para la integración
+  y consolidación de datos masivos entre sistemas heterogéneos.
+- Automatización de tareas administrativas y generación de reportes
+  financieros o comerciales recurrentes en empresas.
+- Arquitectura de sistemas batch autónomos que procesan lotes de datos
+  sin requerir interacción manual del usuario.
+- Gestión de versionamiento colaborativo mediante Git y GitHub, fundamental
+  para el trabajo en equipos de desarrollo profesionales.
+
+3. DIFICULTADES PRESENTADAS DURANTE EL DESARROLLO DEL PROYECTO
+----------------------------------------------------------------------
+- Organización inicial de la lectura de archivos con estructura variable,
+  requiriendo validación previa de delimitadores (';') y parseo de tipos.
+- Garantizar la persistencia y coherencia entre los IDs generados de forma
+  pseudoaleatoria para vendedores/productos y su posterior procesamiento.
+- Manejo y formateo numérico de precios y totales para asegurar dos
+  decimales precisos en los archivos de salida CSV.
+- Coordinación de tiempos de entrega y sincronización dentro del equipo
+  de trabajo.
+======================================================================
